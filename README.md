@@ -6,7 +6,7 @@ how to use:
 
 import DataTable from './your/route/Table'
 
-// in case of using the textToFilter i recommend to use "useState" from react
+// in case of using the textToFilter i recommend to use "useState" from react, in other case textToFilter can be an empty string ("") and the filter doesn't affect
 
 import { useState } from 'react'
 
