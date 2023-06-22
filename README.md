@@ -7,11 +7,14 @@ how to use:
 import DataTable from './your/route/Table'
 
 // in case of using the textToFilter i recommend to use "useState" from react
+
 import { useState } from 'react'
+
 const [textToFilter, setTextToFilter] = useState("")
 
 
 const rowsToShow = 5 // you can use a variable or use the number in the params
+
 const dataColumns = ['Column1', 'Column2', 'Column3', 'Column N']  // Add all the rows that you need
 
 <DataTable
